@@ -7,6 +7,14 @@
     font-family: 'Bebas Neue', cursive, 'Alfa Slab One',  'Montserrat', sans-serif;
 }
 
+p {
+    font-family: 'Montserrat';
+}
+
+img {
+    width: 100%;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -17,7 +25,6 @@ header {
     grid-template-columns: 400px auto ;
     align-items: center;
     padding: 10px 0;
-    background-color: aquamarine;
 }
 
 .top-bar {
@@ -43,16 +50,209 @@ nav ul {
     padding: 0;
     list-style: none;
     display: flex;
+    margin-top: 15px;
 }
 
 nav ul li a {
     text-decoration: none;
     display: inline-block;
-    padding: 7px 20px;
-    font-size: 18px;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #3d2514;
 }
 
 nav ul li:last-child a {
     padding-right: 0px;
 }
 
+
+.banner-section {
+    background-image: url('images/background-1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -130px;
+    padding: 130px 0 65px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+
+.banner-detail {
+    width: 55%;
+    color: #3d2514;
+}
+
+.banner-detail h3 {
+    font-size: 22px;
+    border: 2px dashed #3d2514;
+    padding: 5px 10px; 
+    display: inline-block;
+}
+
+.banner-detail h1 {
+    font-size: 95px;
+    font-family: 'Alfa Slab One';
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 0px #fee8bc;
+}
+
+.banner-detail h2 {
+    font-size: 55px;
+    font-family: 'Alfa Slab One';
+    letter-spacing: 2px;
+    margin-top: -15px;
+    text-shadow: 3px 3px 0px #fee8bc;
+} 
+
+.banner-pic img {
+    width: 100%;
+}
+
+
+.category-section {
+    display: flex;
+    padding: 45px 0;
+}
+
+
+.one-of-half {
+    width: 50%;
+}
+
+.item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px;
+    margin: 20px;
+    border-radius: 15px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.item-one {
+    height: 400px;
+    background-image: url('images/01.png');
+}
+
+.item-two {
+    height: 180px;
+    background-image: url('images/02.png');
+}
+
+.item-three{
+    margin-top: 36px;
+    height: 180px;
+    background-image: url('images/03.png');
+}
+
+.item h3 {
+    font-size: 22px;
+}
+
+.item h2 {
+    font-size: 32px;
+}
+
+
+
+.title {
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 22px;
+    background-color: #ffc045;
+    color: #3d2514;
+    padding: 7px 12px;
+    display: inline-block;
+}
+
+.title h2 {
+    color: #3d2514;
+    font-family: 'Alfa Slab One';
+    font-size: 45px;
+    margin: 20px 0;
+}
+
+
+.all-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+}
+
+.product-item {
+    text-align: center;
+    padding: 35px;
+    transition: all 700ms;  
+}
+
+.product-item h3 {
+    font-size: 25px;
+    margin: 10px 0;
+    transition: all 300ms;  
+}
+
+.product-item a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 45px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #c02223 ;
+    color: white;
+}
+
+.product-item:hover {
+    background-color: #ffc045 ;
+    transform: translateY(-20px);
+    box-shadow: 0 0 50px 2px #ffc045 ;
+    
+}
+
+.product-item:hover h3 {
+    color: white;
+}
+
+.product-item img  {
+    transition: all 700ms;
+}
+
+.product-item:hover.product-item img {
+   transform:scale(1.2);
+}
+
+
+.circle {
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.active-circle {
+    background-color: #ffc045 ;
+}
+
+.circle-container {
+    display: flex;
+}
+
+.events {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.event-container {
+    background-color: white;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+    padding: 45px;
+    display: flex;
+}
