@@ -256,3 +256,90 @@ nav ul li:last-child a {
     padding: 45px;
     display: flex;
 }
+
+
+.event-info h3 {
+    font-size: 25px;
+}
+
+.event-info h2 {
+    font-size: 35px;
+    color: #3d2514;
+    font-family: 'Alfa Slab One' ;
+}
+
+.event-info {
+    padding-right: 45px;
+    margin-bottom: 15px;
+}
+
+.booking-container {
+    width: 700px;
+    margin: 25px auto;
+    padding: 65px 0;
+    text-align: center;
+}
+
+input {
+    width: 45%;
+    margin: 5px;
+    padding: 7px;
+
+}
+
+
+input:focus {
+    outline: none;
+}
+
+
+input[type=submit] {
+    background-color: #c02223;
+    color: white;
+    border: none;
+    font-size: 17px;
+    padding: 6px 0;
+}
+
+
+footer {
+    background-image: url(images/background-2.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding:65px 0 25px 0 ;
+}
+
+
+.row-one {
+    display: flex;
+    align-items: end;
+}
+
+.footer-logo {
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.contact {
+    padding-left: 200px; 
+}
+
+.contact i {
+    margin: 5px;
+}
+
+.row-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.social-icon i {
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    margin: 0 3px
+}
